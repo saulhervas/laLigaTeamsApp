@@ -1,0 +1,27 @@
+
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
+@
+build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+t
+Dapp/src/main/java/com/saulhervas/laligateamsapp/view/MainActivity.kt,a\7\a7ef9db6dbd63ae76daf4699df11a8cf6ba85fee
+s
+Capp/src/main/java/com/saulhervas/laligateamsapp/utils/ApiService.kt,4\6\46a4488fac833637efb8953d5776eefeeb40fa8c
+~
+Napp/src/main/java/com/saulhervas/laligateamsapp/utils/StandingsDataResponse.kt,5\e\5e681faab30bdc63c42568d26f2ac4c789e389ac
+w
+G.idea/sonarlint/issuestore/8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e,3\2\32813322c99a6c8a141ab2dc12bc10af3425f1b4
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+w
+G.idea/sonarlint/issuestore/d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d,5\9\597ee72a8e9f089a0f26608d0d77229bc4510a37
+Å
+Q.idea/sonarlint/securityhotspotstore/d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d,e\c\ec4317fc3093e8c354ef226260d7fd566c3957fb
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+Å
+Q.idea/sonarlint/securityhotspotstore/8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e,1\f\1fe398aa86b382486ed27d0a69bf92f68bd5edaa
+Å
+Q.idea/sonarlint/securityhotspotstore/d/2/d2a4383452aad84a18429a5844d31330a012a9e6,7\f\7fcac164c7a46b8fc6411ea93226c884af6044db
