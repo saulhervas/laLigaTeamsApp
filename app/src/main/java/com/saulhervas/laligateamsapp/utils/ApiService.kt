@@ -3,10 +3,13 @@ package com.saulhervas.laligateamsapp.utils
 
 import retrofit2.Response
 import retrofit2.http.GET
+import retrofit2.http.Query
 
 interface ApiService {
 
-    @GET("/standings?league=140&season=2023")
-    suspend fun getStandings(): Response<StandingsDataResponse>
+    @GET("/teams")
+    suspend fun getTeams(@Query("name") teamName: String): Response<TeamsDataResponse>
 
+    @GET("/teams")
+    suspend fun getTeam(@Query("id") teamId: Int): Response<TeamsDataResponse>
 }

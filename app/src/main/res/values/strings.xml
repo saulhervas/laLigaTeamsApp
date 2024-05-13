@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">laLigaTeamsApp</string>
+    <string name="name_label">Nombre:</string>
 </resources>

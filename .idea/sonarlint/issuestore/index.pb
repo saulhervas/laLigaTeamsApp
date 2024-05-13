@@ -9,8 +9,6 @@ t
 Dapp/src/main/java/com/saulhervas/laligateamsapp/view/MainActivity.kt,a\7\a7ef9db6dbd63ae76daf4699df11a8cf6ba85fee
 s
 Capp/src/main/java/com/saulhervas/laligateamsapp/utils/ApiService.kt,4\6\46a4488fac833637efb8953d5776eefeeb40fa8c
-~
-Napp/src/main/java/com/saulhervas/laligateamsapp/utils/StandingsDataResponse.kt,5\e\5e681faab30bdc63c42568d26f2ac4c789e389ac
 w
 G.idea/sonarlint/issuestore/8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e,3\2\32813322c99a6c8a141ab2dc12bc10af3425f1b4
 S
@@ -25,3 +23,13 @@ Q.idea/sonarlint/securityhotspotstore/d/b/dbcff70658daf80b53ce624f6adcaa529df5ed
 Q.idea/sonarlint/securityhotspotstore/8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e,1\f\1fe398aa86b382486ed27d0a69bf92f68bd5edaa
 Å
 Q.idea/sonarlint/securityhotspotstore/d/2/d2a4383452aad84a18429a5844d31330a012a9e6,7\f\7fcac164c7a46b8fc6411ea93226c884af6044db
+z
+Japp/src/main/java/com/saulhervas/laligateamsapp/utils/TeamsDataResponse.kt,9\c\9c934705d914cd765dc66315143e82913b30ec24
+w
+Gapp/src/main/java/com/saulhervas/laligateamsapp/adapter/TeamsAdapter.kt,2\f\2f812a48430c158eaa7a32e6fe114ea4c288d8b1
+|
+Lapp/src/main/java/com/saulhervas/laligateamsapp/viewHolder/TeamViewHolder.kt,a\7\a7ef7a0f5bdde0d2fc488605ef7a288cf29d0e57
+z
+Japp/src/main/java/com/saulhervas/laligateamsapp/view/TeamDetailActivity.kt,6\3\6362ec850d7775d7806ac66d8187628c147221bc
+{
+Kapp/src/main/java/com/saulhervas/laligateamsapp/utils/TeamDetailResponse.kt,2\e\2ee486def828c7f71f8aa8642c48bd065b4bae1a
