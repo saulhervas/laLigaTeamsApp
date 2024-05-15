@@ -47,7 +47,7 @@
         android:id="@+id/tvLabelName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="12dp"
         android:text="@string/name_label"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/tvteamNameDetail"
@@ -57,14 +57,90 @@
 
     <TextView
         android:id="@+id/tvteamNameDetail"
-        android:layout_width="154dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="230dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/tvLabelName"
         app:layout_constraintTop_toTopOf="@+id/guideline"
         tools:text="HOLA" />
+
+    <TextView
+        android:id="@+id/tvLabelStadium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/stadium_label"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/tvteamNameStadium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLabelName"
+        app:layout_constraintVertical_bias="0.312"
+        tools:text="HOLA" />
+
+    <TextView
+        android:id="@+id/tvteamNameStadium"
+        android:layout_width="246dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="32dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvLabelStadium"
+        app:layout_constraintTop_toBottomOf="@+id/tvteamNameDetail"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="HOLA" />
+
+    <TextView
+        android:id="@+id/tvLabelFounded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/founded_label"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvteamNameFounded"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="0.323"
+        tools:text="HOLA" />
+
+    <TextView
+        android:id="@+id/tvteamNameFounded"
+        android:layout_width="202dp"
+        android:layout_height="26dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvLabelFounded"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="0.333"
+        tools:text="HOLA" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="444dp" />
+
+    <ImageView
+        android:id="@+id/ivStadium"
+        android:layout_width="296dp"
+        android:layout_height="196dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="642dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

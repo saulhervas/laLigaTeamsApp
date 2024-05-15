@@ -51,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         binding.rvTeams.setHasFixedSize(true)
         binding.rvTeams.layoutManager = LinearLayoutManager(this)
         binding.rvTeams.adapter = adapter
+        binding.bntClean.setOnClickListener { clearResults() }
     }
 
     private fun searchByName(query: String) {
@@ -98,6 +99,11 @@ class MainActivity : AppCompatActivity() {
                     .build()
             )
             .build()
+    }
+
+    private fun clearResults() {
+        adapter.updateList(emptyList())
+        hideKeyboard()
     }
 
     private fun navigateToTeamDetail(id: Int) {

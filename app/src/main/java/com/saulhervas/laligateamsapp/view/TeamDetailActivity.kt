@@ -53,6 +53,9 @@ class TeamDetailActivity : AppCompatActivity() {
         Picasso.get().load(team.responseTeam[0].team.logo).into(binding.ivImage)
         binding.tvTeamName.text = team.responseTeam[0].team.name
         binding.tvteamNameDetail.text = team.responseTeam[0].team.name
+        binding.tvteamNameStadium.text = team.responseTeam[0].venue.name
+        binding.tvteamNameFounded.text = team.responseTeam[0].team.founded.toString()
+        Picasso.get().load(team.responseTeam[0].venue.image).into(binding.ivStadium)
     }
 
     private fun getRetrofit(): Retrofit {

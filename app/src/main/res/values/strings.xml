@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">laLigaTeamsApp</string>
     <string name="name_label">Nombre:</string>
+    <string name="stadium_label">Estadio:</string>
+    <string name="founded_label">Fundado:</string>
+    <string name="label_activity">Busca tu equipo favorito:</string>
+    <string name="btn_cleam">Limpiar</string>
+
 </resources>
