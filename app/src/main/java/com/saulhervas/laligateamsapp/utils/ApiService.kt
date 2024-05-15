@@ -6,7 +6,6 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface ApiService {
-
     @GET("/teams")
     suspend fun getTeams(@Query("search") teamName: String): Response<TeamsDataResponse>
 
