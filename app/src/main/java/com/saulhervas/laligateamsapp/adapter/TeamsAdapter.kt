@@ -18,6 +18,11 @@ class TeamsAdapter(
         notifyDataSetChanged()
     }
 
+    fun clearList() {
+        this.teamsList = emptyList()
+        notifyDataSetChanged()
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TeamViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
         return TeamViewHolder(layoutInflater.inflate(R.layout.item_teams, parent, false))
